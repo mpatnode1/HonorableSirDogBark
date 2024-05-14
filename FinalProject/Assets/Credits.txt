@@ -1,0 +1,39 @@
+﻿Game Created by Meghan Patnode
+
+
+Audio:
+
+Background Music:
+https://pixabay.com/sound-effects/028280-medieval-life-62109/
+
+Point Score:
+Sound Effect from https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=39914
+
+Damage Sound Effect:
+https://pixabay.com/sound-effects/damage-40114/
+
+Win Music:
+Sound Effect by https://pixabay.com/users/floraphonic-38928062/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=185128">floraphonic</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=185128
+
+Lose Music:
+Sound Effect by https://pixabay.com/users/floraphonic-38928062/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=185126">floraphonic</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=185126">Pixabay</a>
+
+
+
+3D Models:
+All 3D Models sourced from Kay Lousberg on Itch.io:
+https://kaylousberg.itch.io
+
+
+
+2D Artwork:
+All 2D artwork was drawn by Atlas Walker.
+
+
+
+Demos Used:
+Enemy Patrolling Unity Tutorial Demo by MoreBBlakeyyy
+     https://www.youtube.com/watch?v=4mzbDk4Wsmk
+
+3D Platformer in Unity - Enemy Shooting Tutorial by Kozmobot Games
+     https://www.youtube.com/watch?v=k1kOtaM2NJg
