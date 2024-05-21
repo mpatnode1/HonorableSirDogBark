@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System;
 using static UnityEngine.GraphicsBuffer;
+using static Cinemachine.CinemachineTargetGroup;
 
 public class InputController : MonoBehaviour
 {
@@ -47,12 +48,16 @@ public class InputController : MonoBehaviour
     float currentPlayerX;
     float currentPlayerZ;
 
+    [SerializeField] GameObject mage;
+
     private void Awake()
     {
         playerControls = new PlayerInput();
         rb = GetComponent<Rigidbody>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        
+        
     }
 
     private void OnEnable()
@@ -60,6 +65,7 @@ public class InputController : MonoBehaviour
         //playerControls.Enable();
         move = playerControls.Player.Move;
         move.Enable();
+        move.performed += Move;
 
         fire = playerControls.Player.Fire;
         fire.Enable();
@@ -95,7 +101,6 @@ public class InputController : MonoBehaviour
     {
         
         grounded = IsGrounded();
-
         
         HandleMovement();
         
@@ -133,26 +138,42 @@ public class InputController : MonoBehaviour
         //transform.forward = movementDirection;
     }
 
+    void Move(InputAction.CallbackContext context)
+    {
+
+        Transform mageTransform = mage.GetComponent<Transform>();
+        Vector2 moveContext = context.ReadValue<Vector2>();
+        
+        float moveAngle = Vector2.SignedAngle(moveContext, Vector2.up);
+
+        Quaternion target = Quaternion.Euler(0, moveAngle + -90f, 0);
+        Debug.Log(target.eulerAngles);
+
+        mageTransform.rotation = Quaternion.Slerp(mageTransform.rotation, target, Time.deltaTime * 50f);
+      
+    }
 
     bool IsGrounded()
     {
         // Bit shift the index of the layer (8) to get a bit mask
         int layerMask = 1 << 3;
 
+        Transform mageTransform = mage.GetComponent<Transform>();
+        if (mageTransform == null) return false;
+
         RaycastHit hit;
-       
 
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.up * -1), out hit, 1.1f, layerMask))
+        if (Physics.Raycast(mageTransform.position, mageTransform.TransformDirection(Vector3.up * -1), out hit, 1.1f, layerMask))
         {
             //Debug.Log(hit.collider);
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.up * -1) * hit.distance, Color.yellow);
+            Debug.DrawRay(mageTransform.position, mageTransform.TransformDirection(Vector3.up * -1) * hit.distance, Color.yellow);
             return true;
         }
         else
         {
             //Debug.Log(hit.collider);
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
+            Debug.DrawRay(mageTransform.position, mageTransform.TransformDirection(Vector3.forward) * 1000, Color.blue);
             return false;
         }
     }
