@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Boss
+  - Bounds
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - ground
   - Water
   - UI
-  - 
+  - bounds
   - 
   - 
   - 

@@ -23,6 +23,10 @@ public class FireBall : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
+        else if (other.gameObject.tag == "Bounds")
+        {
+            Destroy(gameObject);
+        }
     }
 
     void deathCounter()

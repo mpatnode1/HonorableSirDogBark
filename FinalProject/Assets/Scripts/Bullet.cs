@@ -11,5 +11,9 @@ public class Bullet : MonoBehaviour
             PlayerStats.Instance.PlayerLoseHealth();
             Destroy(gameObject);
         }
+        else if (other.gameObject.tag == "Bounds")
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -101,7 +101,6 @@ public class InputController : MonoBehaviour
     {
         
         grounded = IsGrounded();
-        
         HandleMovement();
         
 
@@ -149,7 +148,7 @@ public class InputController : MonoBehaviour
         Quaternion target = Quaternion.Euler(0, moveAngle + -90f, 0);
         Debug.Log(target.eulerAngles);
 
-        mageTransform.rotation = Quaternion.Slerp(mageTransform.rotation, target, Time.deltaTime * 50f);
+        mageTransform.rotation = Quaternion.Slerp(mageTransform.rotation, target, Time.deltaTime * 130f);
       
     }
 
