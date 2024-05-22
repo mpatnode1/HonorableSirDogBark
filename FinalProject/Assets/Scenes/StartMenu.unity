@@ -150,14 +150,14 @@ RectTransform:
   m_GameObject: {fileID: 30155100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.47849, y: 0.47849, z: 0.47849}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1981883044}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -517, y: 403}
+  m_AnchoredPosition: {x: -252.169, y: 179.89}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30155102
@@ -716,7 +716,7 @@ RectTransform:
   m_GameObject: {fileID: 977275708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.25, y: 4.25, z: 4.25}
+  m_LocalScale: {x: 2.0335824, y: 2.0335824, z: 2.0335824}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1920310829}
@@ -724,7 +724,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -255}
+  m_AnchoredPosition: {x: 0.000009059906, y: -134.96}
   m_SizeDelta: {x: 144.4238, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &977275710
@@ -848,8 +848,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992736298}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.25, y: 4.25, z: 4.25}
+  m_LocalPosition: {x: 0, y: 0, z: -16.93}
+  m_LocalScale: {x: 1.7252969, y: 1.7252969, z: 1.7252969}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 692860457}
@@ -857,7 +857,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -420}
+  m_AnchoredPosition: {x: -1, y: -170.51}
   m_SizeDelta: {x: 144.4238, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &992736300
@@ -1116,7 +1116,7 @@ RectTransform:
   m_GameObject: {fileID: 1077067961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.25, y: 4.25, z: 4.25}
+  m_LocalScale: {x: 2.0335824, y: 2.0335824, z: 2.0335824}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1073336773}
@@ -1124,7 +1124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -83}
+  m_AnchoredPosition: {x: -0, y: -52.661}
   m_SizeDelta: {x: 144.4238, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1077067963
@@ -1247,15 +1247,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427836152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -57}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -40.07}
+  m_LocalScale: {x: 0.40595222, y: 0.40595222, z: 0.40595222}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2139365865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -677, y: 406}
+  m_AnchoredPosition: {x: -277.8806, y: 164.81}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1427836154
@@ -1278,26 +1278,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game made by Meghan Patnode
+  m_text: 'Game made by Meghan Patnode, published as CackleCat on Itch.io
 
 
-    2D Artwork by Atlas Walker
+    2D
+    Artwork by Atlas Walker
 
 
-    3D
-    Models by KayKit on Itch.io
+    3D Models by KayKit on Itch.io
 
 
-    Demo: 3D Platformer in Unity - Enemy Shooting
-    Tutorial by Kozmobot Games on Youtube was used to create shooting enemy.
+    Demo: 3D Platformer
+    in Unity - Enemy Shooting Tutorial by Kozmobot Games on Youtube was used to create
+    shooting enemy.
 
 
-    Demo:
-    Enemy Patrolling Unity Tutorial Demo by MoreBBlakeyyy on Youtube was used to
-    create enemy patrol pathways.
+    Demo: Enemy Patrolling Unity Tutorial Demo by MoreBBlakeyyy
+    on Youtube was used to create enemy patrol pathways.
 
 
-    Music and sound effects sourced from Pixabay
+    Music and sound effects
+    sourced from Pixabay
 
 
 '
@@ -1327,14 +1328,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46.47
-  m_fontSizeBase: 46.47
+  m_fontSize: 49.5
+  m_fontSizeBase: 49.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1363,7 +1364,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -65.77045, y: 0, z: -1447.028, w: -624.84094}
+  m_margin: {x: -71.23328, y: -16.388714, z: -1518.0449, w: -624.84094}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1404,14 +1405,14 @@ RectTransform:
   m_GameObject: {fileID: 1471730224}
   m_LocalRotation: {x: -0, y: -0, z: -0.049760506, w: 0.9987612}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.5, y: 4.5, z: 4.5}
+  m_LocalScale: {x: 2.153205, y: 2.153205, z: 2.153205}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1981883044}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.704}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 608, y: -176}
+  m_AnchoredPosition: {x: 286.141, y: -97.161}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1471730226
@@ -1713,7 +1714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1904,14 +1905,14 @@ RectTransform:
   m_GameObject: {fileID: 2106809152}
   m_LocalRotation: {x: -0, y: -0, z: 0.05913077, w: 0.99825025}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.5, y: 7.5, z: 7.5}
+  m_LocalScale: {x: 3.588675, y: 3.588675, z: 3.588675}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1981883044}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.78}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -666, y: -61}
+  m_AnchoredPosition: {x: -297, y: -39}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2106809154
